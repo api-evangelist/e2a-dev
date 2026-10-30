@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-e2a-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://e2a.dev/
+e2a.dev provides an open-source email API designed for applications and AI agents. It enables sending transactional emails, managing two-way inboxes, and integrating email workflows into products. Available as a hosted service or self‑hosted under Apache‑2.0, it targets developers, agent‑native teams, and businesses seeking flexible, privacy‑focused email solutions.
+
+**Areas:** Company · Email · OpenSource · API · AI
+
+## e2a-dev on APIs.io
+
+Everything profiled for e2a-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/e2a-dev/](https://apis.io/providers/e2a-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [e2a.dev Email API](https://apis.io/apis/e2a-dev/e2a-dev-email-api/) — Open-source email API for sending transactional emails and managing inboxes.
+- [e2a API API](https://apis.io/apis/e2a-dev/e2a-api-api/) — e2a — authenticated email gateway for AI agents. v1 contract.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ContactEngagementView](https://apis.io/schemas/e2a-dev/e2a-dev-contact-engagement-view/)
+- [ForwardRequest](https://apis.io/schemas/e2a-dev/e2a-dev-forward-request/)
+- [MessageView](https://apis.io/schemas/e2a-dev/e2a-dev-message-view/)
+- [ReplyRequest](https://apis.io/schemas/e2a-dev/e2a-dev-reply-request/)
+- [SendEmailRequest](https://apis.io/schemas/e2a-dev/e2a-dev-send-email-request/)
+- [VerifyDomainView](https://apis.io/schemas/e2a-dev/e2a-dev-verify-domain-view/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [E2A Dev Context](https://apis.io/jsonld/e2a-dev/e2a-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [e2a-dev API Rules](https://apis.io/rules/e2a-dev/e2a-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [E2A Dev Authentication](https://apis.io/security/e2a-dev/e2a-dev-authentication/)
+- [E2A Dev Domain Security](https://apis.io/security/e2a-dev/e2a-dev-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [E2A Dev Plans Pricing](https://apis.io/plans/e2a-dev/e2a-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://e2a.dev/)
+- [Documentation](https://e2a.dev/api-docs)
+- [Getting started](https://e2a.dev/get-started)
+- [API reference](https://e2a.dev/api-docs)
+- [Pricing](https://e2a.dev/pricing)
+- [Blog](https://e2a.dev/blog)
+- [Terms of service](https://tokencanopy.com/terms)
+- [Privacy policy](https://e2a.dev/privacy)
+- [GitHub](https://github.com/tokencanopy)
+
+## API Evangelist rating
+
+**Kin Score 53.9** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 56.4 |
+| Access clarity | 60.0 |
+
+**Agent readiness 42.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/e2a-dev/](https://apis.io/providers/e2a-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for e2a-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/e2a-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
